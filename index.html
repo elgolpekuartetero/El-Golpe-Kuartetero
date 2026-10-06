@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El Golpe Kuartetero® | Sitio Oficial</title>
+
+<meta name="description" content="El Golpe Kuartetero® - Banda de cuarteto de Junín, Buenos Aires, Argentina. La banda que viene golpeando con todo.">
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #030814;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* FONDO GENERAL */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(circle at 20% 10%, rgba(0,120,255,.25), transparent 30%),
+        radial-gradient(circle at 80% 30%, rgba(0,80,255,.18), transparent 35%),
+        radial-gradient(circle at 50% 90%, rgba(0,150,255,.12), transparent 30%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* BARRA SUPERIOR */
+nav {
